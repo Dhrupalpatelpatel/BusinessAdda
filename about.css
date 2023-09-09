@@ -1,0 +1,47 @@
+*
+{margin: 0;
+padding: 0;
+}
+
+
+    h1{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10vh;
+    background-color: #d1ad69;
+    }
+
+    main{
+        margin: 50px;
+        display: grid;
+        column-gap: 65px;
+       
+       grid-template-columns: 80vh 88vh ;
+        grid-template-rows: 60vh auto ;
+        border: black;
+    }
+    p{
+        margin: 10px;
+    }
+   
+.it2{
+   
+    
+    background-image: url("https://blog.hubspot.com/hubfs/about-page.jpg");
+    background-repeat: no-repeat;
+}
+.it3{
+    display: flex;
+    /* align-items: center; */
+
+    /* background-color: aqua; */
+    width: 180vh;
+    height: 10vh;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+background-color: #d1ad69;
+}

@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    /* background-color: red; */
+    background-image: url("https://source.unsplash.com/1600x1200/?business, ecommerce");
+    background-repeat: no-repeat;
+}
+.container{
+    /* height: 60px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+color: black;
+}
+.business{
+    margin: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+    font-size: 32px;
+}
+nav{
+    color: white;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    /* font-weight: bold; */
+    display: flex;
+    /* height: 40vh; */
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+nav ul{
+    color: white;
+    margin: 0px 0px 250px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+
+
+nav ul li{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     /* font-weight: bold; */
+    list-style: none;
+    display: inline;
+  padding: 0 23px;
+ 
+   }
+   nav ul li  :hover{
+    color: black;
+    font-weight: bold;
+   }
+   
+   nav ul li a{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* font-weight: bold; */
+    text-decoration: none;
+    
+   } 
+   nav ul li a :hover{
+    color: white;
+    font-weight: bold;
+   }
+  
+   .btn{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+
+   }
+   .btn1 button{
+    width: 44vh;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 12px;
+    height: 70px;
+    border: 2px solid #6759ff;
+    border-radius: 20px;
+    background-color:#6759ff;
+    color: white;
+    cursor: pointer;
+    
+
+   }
+   .btn1 :hover{
+    color: black;
+   }
+   .btn2 button{
+    width: 44vh;
+    font-size: 18px;
+    /* font-weight: bold; */
+    height: 70px;
+    border: 2px solid #6759ff;
+    border-radius: 20px;
+    background-color: #6759ff;
+    color: white;
+    cursor: pointer;
+
+   }
+   .btn2 :hover{
+    color: black;
+   }
+   .copy{
+    color:  black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
